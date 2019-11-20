@@ -11,7 +11,7 @@ const cookieParser = require("cookie-parser");
 const db = require("./config/database");
 //const routes = require("./config/routes");
 const graphqlHTTP = require("express-graphql");
-const schema = require("./graphql/bookSchemas");
+const schema = require("./graphql/accountingSchema");
 
 const {
   importInvoices,
@@ -31,6 +31,7 @@ app.use(compression());
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("api/syncOrganisation", importOrganisationAccountingData);
+app.get("/api/invoices", importInvoices);
 
 // Handles any requests that don't match the ones above
 app.get("*", (req, res) => {
