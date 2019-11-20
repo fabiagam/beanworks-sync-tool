@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "client": "cd client && yarn start",
-    "server": "nodemon  --inspect=5623  server.js",
+    "server": "node  server.js",
     "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "keywords": [
