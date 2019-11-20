@@ -1,0 +1,46 @@
+{
+  "name": "beanworks",
+  "version": "1.0.0",
+  "description": "A user-friendly sync solution app for Beanworks AP Automation Solutions, that imports business accounting data such as (invoices,accounts etc) from Xero ERP Cloud using React, GraphQL, Apollo Client, NodeJS and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon  --inspect=5623  server.js",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "keywords": [
+    "Accounts",
+    "Automation",
+    "Payments",
+    "Sync",
+    "Import",
+    "Export",
+    "Invoices",
+    "Engineering",
+    "Vendors"
+  ],
+  "author": "Ndidi James Abiagam",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-session": "^1.17.0",
+    "graphql": "^14.5.8",
+    "graphql-date": "^1.0.3",
+    "helmet": "^3.21.2",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.7.11",
+    "randomstring": "^1.1.5",
+    "xero-node": "^3.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "appType": "private",
+  "consumerKey": "ZKNVTCESTTMG20UGTLUTWCF9H1IV2L",
+  "consumerSecret": "J8GKFJGZYKLVJIK5QAMX2GFFK1GZ7P",
+  "callbackUrl": null,
+  "userAgent": "Tester (PUBLIC) - Application for testing Xero",
+  "redirectOnError": true,
+  "privateKeyPath": "./privatekey.pem"
+}
