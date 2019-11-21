@@ -32,6 +32,11 @@ The choice of language stack for this project was React, NodeJS , MongoDB. This 
 ### Accounts, Vendor, Sync Actiities  and Invoice Data points
 The backend logc applied to the way data is pulled via Xero API into the the app saved into the database is shown in the system design diagrams
 
+### Testing the aplication
+When testing the application Xero ERP cloud will prompt you to sign in to the account. The login details are shown here:
+ * email - qwerty7ng@yahoo.com
+ * password payasu1978
+
 
 # Steps to deploy Beanworks app to Heroku (Production)
 ### Clone the repository to your machine.
