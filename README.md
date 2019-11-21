@@ -46,7 +46,7 @@ This has already been done. The conenction credentials have been set in the .env
 
 ### Heroku Setup
 * First create a Heroku Account
-* Read Heroku's documentation thoroughly. Check it out  [here] https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
+* Read Heroku's documentation thoroughly. Check it out  here [https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up]
 * Setup Heroku CLI as instructed in the above link
 
 ### PORT and Path Configuration
