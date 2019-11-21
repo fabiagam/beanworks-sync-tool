@@ -18,6 +18,10 @@ Having considered the requirements described in the Beanwork  project brief, emp
 # System Design Documents/Diagams
 The choice of language stack for this project was React, NodeJS , MongoDB. This implies that JavaScript remains the single language used throughout the stack for this project. GraphQL which is the major requirement for this project is used to facilitate API requests.
 
+
+![System Design](/sys_diagram.png)
+Format: ![Alt Text](url)
+
 # Design Considerations
 ## Frontend – 
  * React – The frontend library for the application
