@@ -46,22 +46,23 @@ This has already been done. The conenction credentials have been set in the .env
 
 ### Heroku Setup
 * First create a Heroku Account
-* Read Heroku's documentation thoroughly. Check it out https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up automatic![here]
+* Read Heroku's documentation thoroughly. Check it out  [here] https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up
 * Setup Heroku CLI as instructed in the above link
 
 ### PORT and Path Configuration
 * Open server.js in the server and change the port configuration as follows:
-> const port = process.env.PORT || 3000; 
+``` const port = process.env.PORT || 3000; ```
 
 ### package.json setup
 Open package.json in the server folder and add the following configuration to the existing ones
-> "scripts": {
+``` "scripts": {
     "start": "node server.js", "heroku-postbuild": "cd client && npm install && npm run build" 
 }, 
 "engines": {
     "node": "^10.3.0", 
     "npm": "^6.8.0" 
 }
+```
 
 ### Build
 * Go back to the client folder of your application from command prompt and type following: npm run build (under client folder)
@@ -72,7 +73,7 @@ Open package.json in the server folder and add the following configuration to th
 * If you're configurating git for the first time, run the command git init
 * Go back to server folder
    *  Run heroku create <appname>
-   * git remote -v (to check heroku source)
+   * ```git remote -v (to check heroku source)```
 * Run these commands everytime you make changes to your code
     * git add .
     * git commit -m "Initial Commit"
