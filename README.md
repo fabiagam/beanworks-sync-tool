@@ -20,7 +20,7 @@ The choice of language stack for this project was React, NodeJS , MongoDB. This 
 
 
 ![System Design](/sys_diagram.png)
-Format: ![Alt Text](url)
+
 
 # Design Considerations
 ## Frontend – 
