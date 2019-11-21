@@ -9,6 +9,10 @@ Having considered the requirements described in the Beanwork  project brief, emp
    *	Faster read/write operations 
    *	Adding search indexes on specific fields to enhance overall  system performance by 5%
    *	The  Schemaless nature of NoSQL databases would  prevent  data redundancy  and promote expansive storage of data in a way that suites the nature of the application
+   
+   *  Unit Tests - Unit tests (App.test.js) to ensure the component loads without crashing
+   
+   * Integration Testing - This test was unfortunately not completed and checked in due to time constraints. The motive here is to ensure the react app was adequately using the React appollo interface to send graphQL queries without throwing errors. This is to ensure the client app was communicating effectively with teh grapghQL server that was layered on Express server.
 
 
 # System Design Documents/Diagams
@@ -25,8 +29,11 @@ The choice of language stack for this project was React, NodeJS , MongoDB. This 
 
 ## Business Logic- 
 
+### Accounts, Vendor, Sync Actiities  and Invoice Data points
+The backend logc applied to the way data is pulled via Xero API into the the app saved into the database is shown in the system design diagrams
 
-# Step to deploy Beanworks app to Heroku (Production)
+
+# Steps to deploy Beanworks app to Heroku (Production)
 ### Clone the repository to your machine.
 
 ### Folder structure
